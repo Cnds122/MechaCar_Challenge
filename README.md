@@ -15,3 +15,10 @@
 
 ![Alt Text](Images/total_summary.png)
 ![Alt Text](Images/lot_summary.png)
+
+## T-Tests on Suspension Coils
+
+![Alt Text](Images/t_test.png)
+![Alt Text](Images/lot1.png)
+![Alt Text](Images/lot2.png)
+![Alt Text](Images/lot3.png)
