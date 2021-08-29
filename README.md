@@ -22,3 +22,9 @@
 ![Alt Text](Images/lot1.png)
 ![Alt Text](Images/lot2.png)
 ![Alt Text](Images/lot3.png)
+
+# Study Design: MechaCar vs Competition
+- What metric or metrics are you going to test?
+- What is the null hypothesis or alternative hypothesis?
+- What statistical test would you use to test the hypothesis? And why?
+- What data is needed to run the statistical test?
