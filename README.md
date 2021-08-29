@@ -23,7 +23,22 @@ When looking at lots individually, lot 1 and lot 2 also meet the requirements wi
 
 ## T-Tests on Suspension Coils
 
+T-Tests were performed to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
+
+Null Hypothesis: There is no significant difference between the mean PSI of all manufacturing lots and individual lots and population mean of 1500 PSI.
+
+Alternate Hypothesis: There is significant difference between the mean PSI of all manufacturing lots and individual lots and population mean of 1500 PSI
+
+The significance value will be 0.05
+
+Below is the t-test results for all manufacturing lots. The p-value is 0.06. Since the p-value is greater than our 0.05 significance value we fail to reject the null hypothesis.
 ![Alt Text](Images/t_test.png)
+
+Below are the t-test results for individual lots. The p-value for lot 1, 2, and 3 are 1, 0.6, and 0.04, respectively.
+
+Since the p-value for lot 1 and 2 are greater than our 0.05 significance value we fail to reject the null hypothesis.
+
+For lot 3, the p-value is less than our 0.05 significance value therefore we reject the null hypothesis.
 ![Alt Text](Images/lot1.png)
 ![Alt Text](Images/lot2.png)
 ![Alt Text](Images/lot3.png)
