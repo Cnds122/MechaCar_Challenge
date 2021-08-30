@@ -4,7 +4,10 @@
 ![Alt Text](Images/linear_regression.png)
 ![Alt Text](Images/Summary_mpg.png)
 
+The figures above demonstrate a linear regression and statistical data based on an mpg test done on 50 prototype MechaCars. Using the data above we can answer the following questions.
+
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+  
 
 - Is the slope of the linear model considered to be zero? Why or why not?
 
@@ -44,7 +47,15 @@ For lot 3, the p-value is less than our 0.05 significance value therefore we rej
 ![Alt Text](Images/lot3.png)
 
 # Study Design: MechaCar vs Competition
-- What metric or metrics are you going to test?
-- What is the null hypothesis or alternative hypothesis?
-- What statistical test would you use to test the hypothesis? And why?
-- What data is needed to run the statistical test?
+
+At MechaCar there is a statistical study that will determine how MechaCars perform against similar competitor cars.
+
+The metrics being tested are cost of vehicle and fuel efficiency.
+
+Null Hypothesis:There is no significant difference of metrics between MechaCar and competitors.
+
+Alternative Hypothesis: The is significant difference of metrics between MecharCar and competitors.
+
+The data necessry to run this statistical test will be all price and fuel efficincy data from MechaCar and competitors. We would group together all competitor data and specifically use a car type such as two door trucks.
+
+The statistical test being performed will be t-tests on each metric and compare. If the p-value is less than 0.05 then we will reject the null hypothesis.
