@@ -7,11 +7,20 @@
 The figures above demonstrate a linear regression and statistical data based on an mpg test done on 50 prototype MechaCars. Using the data above we can answer the following questions.
 
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-  
+
+
+The two variables that provided a non-random amount of variance are vehicle length and ground clearence. Their p-value show a high level of significance.
+
 
 - Is the slope of the linear model considered to be zero? Why or why not?
 
+
+The slope is not considered to be zero. Some independent variables, such as vehicle length and ground clearence, had a significant effect on the dependent variable.
+
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+
+
+Based on the data, the multiple R-squared value is 0.71. This means there is a 71% rate of prediction. With provided data it is an effictive prediction but we must be aware of additional data values that can be added.
 
 ## Summary Statistics on Suspension Coils
 
